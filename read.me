@@ -1,0 +1,33 @@
+
+//impure function
+const conversionRate = .23;
+function ImpureRateCalculation(amount) {
+    return amount * conversionRate; 
+}
+ImpureRateCalculation(55);
+
+//-------------Core Redux Principles
+//1. Pure functions
+/*  Only work with locally Scoped Variables
+    Given the same input, the output will always be the same
+    Reliable, Simple, and Predictable 
+ */
+function PureRateCalculation(amount, conversionRate) {
+    return amount * conversionRate;
+}
+PureRateCalculation(55, conversionRate);
+
+//2. Immutability (Clone and modify a copy of the object instead of mutating the original object)
+/* State should be Immutable
+   We have to clone our state object using the Object.assign() method
+   Creates a snapshot of our state and a history of changes
+  
+    let state1 = {team:"Colts", name:"Peyton", rating:"99.99"};
+    let state2 = Object.assign({}, state1, {team: "Broncos", rating:"92.99"});
+    console.log(state1);
+    console.log(state2);
+ */
+
+
+
+ node_modules/.bin/babel --plugins transform-react-jsx -w -o src/example.min.js src/example.js
