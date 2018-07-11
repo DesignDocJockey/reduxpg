@@ -1,0 +1,1621 @@
+//json consumed by working buttons on the front-end
+{
+    "propertyTypeId": 6,
+    "propertyType": "Office",
+    "propertyTypeOrder": 1,
+    "enabled": true,
+    "_subPropertyTypes": [
+     {
+      "subPropertyTypeId": 7,
+      "subPropertyType": "Office - CBD",
+      "subPropertyTypeOrder": 1,
+      "enabled": true,
+      "_features": [
+       {
+        "featureId": 26,
+        "feature": "Medical",
+        "featureOrder": 2,
+        "searchId": [
+         103
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 40,
+        "feature": "R&D",
+        "featureOrder": 3,
+        "searchId": [
+         104
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 51,
+        "feature": "Tech/Telecom/Data",
+        "featureOrder": 4,
+        "searchId": [
+         106
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       }
+      ],
+      "searchId": 102,
+      "_value": true,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:3110"
+     },
+     {
+      "subPropertyTypeId": 8,
+      "subPropertyType": "Office - Sub",
+      "subPropertyTypeOrder": 2,
+      "enabled": true,
+      "_features": [
+       {
+        "featureId": 26,
+        "feature": "Medical",
+        "featureOrder": 2,
+        "searchId": [
+         108
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 40,
+        "feature": "R&D",
+        "featureOrder": 3,
+        "searchId": [
+         110
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 51,
+        "feature": "Tech/Telecom/Data",
+        "featureOrder": 4,
+        "searchId": [
+         112
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 37,
+        "feature": "Park",
+        "featureOrder": 5,
+        "searchId": [
+         109
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       }
+      ],
+      "searchId": 107,
+      "_value": true,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:3111"
+     }
+    ],
+    "_features": [
+     {
+      "featureId": 26,
+      "feature": "Medical",
+      "featureOrder": 2,
+      "searchId": [
+       97,
+       103,
+       108
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28355"
+     },
+     {
+      "featureId": 26,
+      "feature": "Medical",
+      "featureOrder": 2,
+      "searchId": [
+       103
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 26,
+      "feature": "Medical",
+      "featureOrder": 2,
+      "searchId": [
+       108
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 40,
+      "feature": "R&D",
+      "featureOrder": 3,
+      "searchId": [
+       99,
+       104,
+       110
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28356"
+     },
+     {
+      "featureId": 40,
+      "feature": "R&D",
+      "featureOrder": 3,
+      "searchId": [
+       104
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 40,
+      "feature": "R&D",
+      "featureOrder": 3,
+      "searchId": [
+       110
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 51,
+      "feature": "Tech/Telecom/Data",
+      "featureOrder": 4,
+      "searchId": [
+       101,
+       106,
+       112
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28357"
+     },
+     {
+      "featureId": 51,
+      "feature": "Tech/Telecom/Data",
+      "featureOrder": 4,
+      "searchId": [
+       106
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 51,
+      "feature": "Tech/Telecom/Data",
+      "featureOrder": 4,
+      "searchId": [
+       112
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 37,
+      "feature": "Park",
+      "featureOrder": 5,
+      "searchId": [
+       98,
+       109
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28358"
+     },
+     {
+      "featureId": 37,
+      "feature": "Park",
+      "featureOrder": 5,
+      "searchId": [
+       109
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     }
+    ],
+    "searchId": 96,
+    "_onValueChanged": {
+     "handlers": [
+      null
+     ]
+    },
+    "suppressValueChangedEvent": false,
+    "_value": false,
+    "$$hashKey": "object:3069"
+   }
+
+   {
+    "propertyTypeId": 6,
+    "propertyType": "Office",
+    "propertyTypeOrder": 1,
+    "enabled": true,
+    "_subPropertyTypes": [
+     {
+      "subPropertyTypeId": 7,
+      "subPropertyType": "Office - CBD",
+      "subPropertyTypeOrder": 1,
+      "enabled": true,
+      "_features": [
+       {
+        "featureId": 26,
+        "feature": "Medical",
+        "featureOrder": 2,
+        "searchId": [
+         103
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 40,
+        "feature": "R&D",
+        "featureOrder": 3,
+        "searchId": [
+         104
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 51,
+        "feature": "Tech/Telecom/Data",
+        "featureOrder": 4,
+        "searchId": [
+         106
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       }
+      ],
+      "searchId": 102,
+      "_value": true,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:3110"
+     },
+     {
+      "subPropertyTypeId": 8,
+      "subPropertyType": "Office - Sub",
+      "subPropertyTypeOrder": 2,
+      "enabled": true,
+      "_features": [
+       {
+        "featureId": 26,
+        "feature": "Medical",
+        "featureOrder": 2,
+        "searchId": [
+         108
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 40,
+        "feature": "R&D",
+        "featureOrder": 3,
+        "searchId": [
+         110
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 51,
+        "feature": "Tech/Telecom/Data",
+        "featureOrder": 4,
+        "searchId": [
+         112
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 37,
+        "feature": "Park",
+        "featureOrder": 5,
+        "searchId": [
+         109
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       }
+      ],
+      "searchId": 107,
+      "_value": true,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:3111"
+     }
+    ],
+    "_features": [
+     {
+      "featureId": 26,
+      "feature": "Medical",
+      "featureOrder": 2,
+      "searchId": [
+       97,
+       103,
+       108
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28355"
+     },
+     {
+      "featureId": 26,
+      "feature": "Medical",
+      "featureOrder": 2,
+      "searchId": [
+       103
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 26,
+      "feature": "Medical",
+      "featureOrder": 2,
+      "searchId": [
+       108
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 40,
+      "feature": "R&D",
+      "featureOrder": 3,
+      "searchId": [
+       99,
+       104,
+       110
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28356"
+     },
+     {
+      "featureId": 40,
+      "feature": "R&D",
+      "featureOrder": 3,
+      "searchId": [
+       104
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 40,
+      "feature": "R&D",
+      "featureOrder": 3,
+      "searchId": [
+       110
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 51,
+      "feature": "Tech/Telecom/Data",
+      "featureOrder": 4,
+      "searchId": [
+       101,
+       106,
+       112
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28357"
+     },
+     {
+      "featureId": 51,
+      "feature": "Tech/Telecom/Data",
+      "featureOrder": 4,
+      "searchId": [
+       106
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 51,
+      "feature": "Tech/Telecom/Data",
+      "featureOrder": 4,
+      "searchId": [
+       112
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 37,
+      "feature": "Park",
+      "featureOrder": 5,
+      "searchId": [
+       98,
+       109
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:28358"
+     },
+     {
+      "featureId": 37,
+      "feature": "Park",
+      "featureOrder": 5,
+      "searchId": [
+       109
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     }
+    ],
+    "searchId": 96,
+    "_onValueChanged": {
+     "handlers": [
+      null
+     ]
+    },
+    "suppressValueChangedEvent": false,
+    "_value": false,
+    "$$hashKey": "object:3069"
+   }
+////////////////
+
+   {
+    "propertyTypeId": 7,
+    "propertyType": "Retail",
+    "propertyTypeOrder": 3,
+    "enabled": true,
+    "_subPropertyTypes": [
+     {
+      "subPropertyTypeId": 9,
+      "subPropertyType": "Centers",
+      "subPropertyTypeOrder": 1,
+      "enabled": true,
+      "_features": [
+       {
+        "featureId": 25,
+        "feature": "Mall",
+        "featureOrder": 1,
+        "searchId": [
+         136
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 39,
+        "feature": "Power Ctr/Retail Park",
+        "featureOrder": 2,
+        "searchId": [
+         138
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 2,
+        "feature": "Anchored",
+        "featureOrder": 3,
+        "searchId": [
+         139
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 18,
+        "feature": "Grocery Anchored",
+        "featureOrder": 4,
+        "searchId": [
+         140
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 54,
+        "feature": "Unanchored",
+        "featureOrder": 5,
+        "searchId": [
+         141
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 35,
+        "feature": "Outlet",
+        "featureOrder": 6,
+        "searchId": [
+         142
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       }
+      ],
+      "searchId": 135,
+      "_value": true,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:3124"
+     },
+     {
+      "subPropertyTypeId": 10,
+      "subPropertyType": "Shops",
+      "subPropertyTypeOrder": 2,
+      "enabled": true,
+      "_features": [
+       {
+        "featureId": 15,
+        "feature": "Freestanding",
+        "featureOrder": 1,
+        "searchId": [
+         146
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 55,
+        "feature": "Urban Retail/High St",
+        "featureOrder": 2,
+        "searchId": [
+         147
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 1,
+        "feature": "Anchor Only",
+        "featureOrder": 3,
+        "searchId": [
+         148
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 5,
+        "feature": "Big Box",
+        "featureOrder": 4,
+        "searchId": [
+         149
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 18,
+        "feature": "Grocery Anchored",
+        "featureOrder": 5,
+        "searchId": [
+         150
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 12,
+        "feature": "Drug Store",
+        "featureOrder": 6,
+        "searchId": [
+         151
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 101,
+        "feature": "Gym/Health Club",
+        "featureOrder": 7,
+        "searchId": [
+         152
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 52,
+        "feature": "Theatre",
+        "featureOrder": 8,
+        "searchId": [
+         153
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 9,
+        "feature": "Convenience Store",
+        "featureOrder": 9,
+        "searchId": [
+         154
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       },
+       {
+        "featureId": 4,
+        "feature": "Bank Branch",
+        "featureOrder": 10,
+        "searchId": [
+         155
+        ],
+        "allSubTypes": false,
+        "isHotelRating": false,
+        "isIncluded": false,
+        "isExcluded": false,
+        "_onValueChanged": {
+         "handlers": [
+          null
+         ]
+        }
+       }
+      ],
+      "searchId": 145,
+      "_value": true,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:3125"
+     }
+    ],
+    "_features": [
+     {
+      "featureId": 25,
+      "feature": "Mall",
+      "featureOrder": 1,
+      "searchId": [
+       117,
+       136
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87073"
+     },
+     {
+      "featureId": 25,
+      "feature": "Mall",
+      "featureOrder": 1,
+      "searchId": [
+       136
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 15,
+      "feature": "Freestanding",
+      "featureOrder": 1,
+      "searchId": [
+       146
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 39,
+      "feature": "Power Ctr/Retail Park",
+      "featureOrder": 2,
+      "searchId": [
+       119,
+       138
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87074"
+     },
+     {
+      "featureId": 39,
+      "feature": "Power Ctr/Retail Park",
+      "featureOrder": 2,
+      "searchId": [
+       138
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 55,
+      "feature": "Urban Retail/High St",
+      "featureOrder": 2,
+      "searchId": [
+       147
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 2,
+      "feature": "Anchored",
+      "featureOrder": 3,
+      "searchId": [
+       120,
+       139
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87075"
+     },
+     {
+      "featureId": 2,
+      "feature": "Anchored",
+      "featureOrder": 3,
+      "searchId": [
+       139
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 1,
+      "feature": "Anchor Only",
+      "featureOrder": 3,
+      "searchId": [
+       148
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 18,
+      "feature": "Grocery Anchored",
+      "featureOrder": 4,
+      "searchId": [
+       121,
+       140,
+       150
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87076"
+     },
+     {
+      "featureId": 18,
+      "feature": "Grocery Anchored",
+      "featureOrder": 4,
+      "searchId": [
+       140
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 5,
+      "feature": "Big Box",
+      "featureOrder": 4,
+      "searchId": [
+       149
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 54,
+      "feature": "Unanchored",
+      "featureOrder": 5,
+      "searchId": [
+       122,
+       141
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87077"
+     },
+     {
+      "featureId": 54,
+      "feature": "Unanchored",
+      "featureOrder": 5,
+      "searchId": [
+       141
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 18,
+      "feature": "Grocery Anchored",
+      "featureOrder": 5,
+      "searchId": [
+       150
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 35,
+      "feature": "Outlet",
+      "featureOrder": 6,
+      "searchId": [
+       123,
+       142
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87078"
+     },
+     {
+      "featureId": 35,
+      "feature": "Outlet",
+      "featureOrder": 6,
+      "searchId": [
+       142
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 12,
+      "feature": "Drug Store",
+      "featureOrder": 6,
+      "searchId": [
+       151
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 15,
+      "feature": "Freestanding",
+      "featureOrder": 7,
+      "searchId": [
+       124,
+       146
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87079"
+     },
+     {
+      "featureId": 101,
+      "feature": "Gym/Health Club",
+      "featureOrder": 7,
+      "searchId": [
+       152
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 55,
+      "feature": "Urban Retail/High St",
+      "featureOrder": 8,
+      "searchId": [
+       125,
+       147
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87080"
+     },
+     {
+      "featureId": 52,
+      "feature": "Theatre",
+      "featureOrder": 8,
+      "searchId": [
+       153
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 1,
+      "feature": "Anchor Only",
+      "featureOrder": 9,
+      "searchId": [
+       126,
+       148
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87081"
+     },
+     {
+      "featureId": 9,
+      "feature": "Convenience Store",
+      "featureOrder": 9,
+      "searchId": [
+       154
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 5,
+      "feature": "Big Box",
+      "featureOrder": 10,
+      "searchId": [
+       127,
+       149
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87082"
+     },
+     {
+      "featureId": 4,
+      "feature": "Bank Branch",
+      "featureOrder": 10,
+      "searchId": [
+       155
+      ],
+      "allSubTypes": false,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      }
+     },
+     {
+      "featureId": 12,
+      "feature": "Drug Store",
+      "featureOrder": 11,
+      "searchId": [
+       128,
+       151
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87083"
+     },
+     {
+      "featureId": 101,
+      "feature": "Gym/Health Club",
+      "featureOrder": 12,
+      "searchId": [
+       129,
+       152
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87084"
+     },
+     {
+      "featureId": 52,
+      "feature": "Theatre",
+      "featureOrder": 13,
+      "searchId": [
+       130,
+       153
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87085"
+     },
+     {
+      "featureId": 9,
+      "feature": "Convenience Store",
+      "featureOrder": 14,
+      "searchId": [
+       131,
+       154
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87086"
+     },
+     {
+      "featureId": 4,
+      "feature": "Bank Branch",
+      "featureOrder": 15,
+      "searchId": [
+       132,
+       155
+      ],
+      "allSubTypes": true,
+      "isHotelRating": false,
+      "isIncluded": false,
+      "isExcluded": false,
+      "_onValueChanged": {
+       "handlers": [
+        null
+       ]
+      },
+      "$$hashKey": "object:87087"
+     }
+    ],
+    "searchId": 116,
+    "_onValueChanged": {
+     "handlers": [
+      null
+     ]
+    },
+    "suppressValueChangedEvent": false,
+    "_value": false,
+    "$$hashKey": "object:3071"
+   }

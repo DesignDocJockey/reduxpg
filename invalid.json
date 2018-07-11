@@ -1,0 +1,16 @@
+Inside the updateResCondoCoopFilters() function...
+
+{
+    "propertyTypeId": -1,
+    "propertyType": "Res Condo/Coop",
+    "propertyTypeOrder": 10,
+    "enabled": true,
+    "_subPropertyTypes": [],
+    "_features": [],
+    "searchId": null,
+    "_onValueChanged": {
+     "handlers": []
+    },
+    "suppressValueChangedEvent": false,
+    "_value": true
+   }

@@ -1,26 +1,33 @@
 {
-  "name": "redux_pg",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "pl_redux",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "prop-types": "^15.6.2",
-    "webpack": "^4.12.1",
-    "webpack-dev-server": "^3.1.4"
+    "start": "concurrently \"npm run server\" \"npm run webpack\" ",
+    "server": "node ./server/app.js",
+    "build": "webpack -p",
+    "webpack": "webpack -w"
   },
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "debug": "^2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "concurrently": "^2.0.0",
+    "lodash.debounce": "^4.0.3",
+    "prop-types": "15.5.8",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "5.0.6",
+    "redux": "3.6.0",
+    "webpack": "2.2.1"
   }
 }

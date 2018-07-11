@@ -1,0 +1,211 @@
+<!-- HTML When Screen is in normal display-->
+
+<div class="property-features hotel-feature-shelf">
+    <div class="controls">
+        <button class="btn btn-default expand-collapse-arrow-btn pull-right" ng-click="propTypeFilterCtrl.activeSecondaryShelf = null">
+            <span class="glyphicon glyphicon-arrow-left color-rca-navy"></span>
+        </button>
+        <help-button class="pull-right" text="Select one or more features from the menu.  By default, all features are included (clear).  Select Inc to include properties with only specific feature(s), select Exc to exclude properties with a specific feature(s)."
+            placement="top">
+            <a tabindex="0" class="help-popover btn btn-default" ng-click="helpBtnCtrl.toggleHelp()" uib-popover-template="'Shared.HelpButton.Templates.HelpPopoverTemplate'"
+                popover-append-to-body="true" popover-class="help-popover" popover-trigger="'focus'" popover-placement="top"
+                ng-disabled="helpBtnCtrl.disabled">?</a>
+        </help-button>
+    </div>
+    <div class="filter-inner-controls-container">
+        <div>
+            <div>
+                <label style="width: 70%; cursor: default;">
+                    <strong class="color-rca-navy">
+                        <span>Feature</span>
+                    </strong>
+                </label>
+                <label style="width: 15%; margin-left: -2px; cursor: default;">
+                    <strong class="color-rca-navy">Inc</strong>
+                </label>
+                <label style="width: 10%; margin-left: -1px; cursor: default;">
+                    <strong class="color-rca-navy">Exc</strong>
+                </label>
+            </div>
+            <!---->
+            <div ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: false}">
+                <label style="width: 70%; cursor: default;">
+                    <span>Boutique</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+                <label style="width: 10%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isExcluded" ng-click="feature.updateValue('excluded');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: false}">
+                <label style="width: 70%; cursor: default;">
+                    <span>Resort</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+                <label style="width: 10%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isExcluded" ng-click="feature.updateValue('excluded');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: false}">
+                <label style="width: 70%; cursor: default;">
+                    <span>Suite</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+                <label style="width: 10%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isExcluded" ng-click="feature.updateValue('excluded');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: false}">
+                <label style="width: 70%; cursor: default;">
+                    <span>Extended Stay</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+                <label style="width: 10%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isExcluded" ng-click="feature.updateValue('excluded');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: false}">
+                <label style="width: 70%; cursor: default;">
+                    <span>Independent</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+                <label style="width: 10%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isExcluded" ng-click="feature.updateValue('excluded');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+        </div>
+        <!---->
+        <div ng-if="propertyType.isHotel">
+            <hr>
+            <div>
+                <label style="width: 85%; cursor: default;">
+                    <strong class="color-rca-navy">Franchise Segment</strong>
+                </label>
+                <label style="width: 15%; margin-left: -6px; cursor: default;">
+                    <strong class="color-rca-navy">Inc</strong>
+                </label>
+            </div>
+            <!---->
+            <div class="checkbox" ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: true}">
+                <label style="width: 85%; cursor: default;">
+                    <span>Economy</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div class="checkbox" ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: true}">
+                <label style="width: 85%; cursor: default;">
+                    <span>Midscale</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div class="checkbox" ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: true}">
+                <label style="width: 85%; cursor: default;">
+                    <span>Upscale</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <div class="checkbox" ng-repeat="feature in propertyType.activeFeatures | filter: {isHotelRating: true}">
+                <label style="width: 85%; cursor: default;">
+                    <span>Luxury</span>
+                </label>
+                <label style="width: 15%; vertical-align: top;">
+                    <input type="checkbox" ng-model="feature.isIncluded" ng-click="feature.updateValue('included');" ng-disabled="::!propertyType.enabled"
+                        class="ng-pristine ng-untouched ng-valid ng-empty">
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+            <!---->
+            <hr>
+            <strong class="color-rca-navy">Franchise(s)</strong>
+            <!---->
+            <hotel-keyword-filters ng-if="propTypeFilterCtrl.isProperties" ng-blur="propTypeFilterCtrl.foo()">
+                <div class="hotel-franchise-list-container">
+                    <!---->
+                    <div class="row" style="margin-bottom: 8px;" ng-repeat="hotelKeyword in hotelFranchiseFilterCtrl.hotelFranchises">
+                        <div class="col-md-12">
+                            <div class="auto-complete">
+                                <autocomplete flip-enabled="true" ng-model="hotelKeyword.input" suggestions="hotelFranchiseFilterCtrl.suggestions"
+                                    on-keydown="hotelFranchiseFilterCtrl.fetchSuggestions(searchText)" on-select="hotelFranchiseFilterCtrl.setSelected(suggestion, hotelKeyword)"
+                                    on-empty="hotelFranchiseFilterCtrl.clearText(hotelKeyword)" keydown-delay="250" clear-on-exit="false"
+                                    input-class="input-xs" placeholder="Franchise name" clear-suggestions-on-exit="false" class="ng-pristine ng-untouched ng-valid ng-empty">
+                                    <div class="rcaautocomplete input input-block" ng-class="{'mobile-view': autocompCtrl.isMobileSearchBoxOpen}"
+                                        ng-mouseenter="autocompCtrl.onMouseEnter()" ng-mouseleave="autocompCtrl.onMouseLeave()"
+                                        click-anywhere-but-here="autocompCtrl.onBlur" click-anywhere-but-here-enabled="false">
+                                        <input class="form-control input-xs" type="text" placeholder="Franchise name" ng-class="{'mobile-view': autocompCtrl.isMobileSearchBoxOpen}"
+                                            ng-model="searchText" ng-keydown="autocompCtrl.onKeydown($event)" ng-focus="autocompCtrl.onFocus()"
+                                            ng-trim="false" ng-disabled="autocompCtrl.disabled">
+                                        <!---->
+                                        <!---->
+                                        <span ng-transclude=""></span>
+                                        <!---->
+                                    </div>
+                                </autocomplete>
+                            </div>
+                            <button type="button" class="btn btn-link btn-xs" ng-click="$index === 0 &amp;&amp; $last ? hotelKeyword.franchise = '' : hotelFranchiseFilterCtrl.removeFranchise(hotelKeyword)">X</button>
+                        </div>
+                    </div>
+                    <!---->
+                    <div>
+                        <!---->
+                        <button class="btn-xs btn-link" ng-if="hotelFranchiseFilterCtrl.hotelFranchises.length < 10" ng-click="hotelFranchiseFilterCtrl.addFranchise(null)">
+                            <i class="glyphicon glyphicon-plus"></i> Add franchise</button>
+                        <!---->
+                    </div>
+                </div>
+            </hotel-keyword-filters>
+            <!---->
+            <!---->
+        </div>
+        <!---->
+    </div>
+</div>
